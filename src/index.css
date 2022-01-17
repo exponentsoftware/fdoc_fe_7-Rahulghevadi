@@ -1,0 +1,49 @@
+body{
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  padding: 10px;
+}
+.main{
+  background-color: rgb(31, 27, 27);
+  width:fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+img{
+  height: 200px;
+  width: 180px;
+}
+
+h1{
+  color: aliceblue;
+}
+
+p{
+  color: aliceblue;
+}
+
+.add_album{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+input{
+  height: 40px;
+  width: fit-content;
+  border-radius: 10px;
+  border-color: black;
+}
